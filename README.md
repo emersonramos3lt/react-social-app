@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# **🌐 React Social Media App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React-based social media application** that provides users with an interactive platform to connect, share, and engage through posts and communities. The app features a **responsive and clean design**, built with a focus on **modern UI/UX best practices** for an intuitive user experience across all devices.
 
-Currently, two official plugins are available:
+## **🔐 Authentication**
+- Users can **log in securely via GitHub authentication**.
+- Once authenticated, users gain full access to the app's social features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Core Features**
+- Create and publish posts.
+- Build and manage custom communities.
+- Like and comment on any post.
+- Reply to other users' comments for seamless discussions.
 
-## Expanding the ESLint configuration
+## **⚙️ Technologies Used**
+- **React** for the front-end UI.
+- **React Hooks** like `useEffect` and `useState` for efficient state and side-effect management.
+- **Mutations** to handle dynamic data changes in real-time.
+- **Supabase** as the backend service, managing authentication, database interactions, and API operations.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Design Highlights**
+- Fully **responsive layout**, optimized for mobile, tablet, and desktop.
+- Follows modern **UI/UX principles** with clean, minimal styling for a smooth user experience.
 
-- Configure the top-level `parserOptions` property like this:
+This app blends powerful functionality with a sleek design, providing users with a dynamic and engaging social platform powered by modern web technologies.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Project Screenshots
+![Screenshot](./screenshot/img1.PNG)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Screenshot](./screenshot/img2.PNG)
+
+![Screenshot](./screenshot/img3.PNG)
