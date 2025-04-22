@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { supabase } from "../supabase-client";
 import { PostItem } from "./PostItem";
+import Loading from "./Loading";
 
 export interface Post {
   id: number;
@@ -29,14 +30,14 @@ export const PostList = () => {
   });
 
   if (isLoading) {
-    return <div> Loading... </div>;
+    return <div> <Loading /> </div>;
   }
 
   if (error) {
     return <div> Error: {error.message} </div>;
   }
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="flex items-center justify-center flex-wrap gap-4">
