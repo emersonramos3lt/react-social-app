@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className="mx-auto px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="font-mono text-xl font-bold text-white">
-            Tech
+            POSTS
           </Link>
 
           {/* Desktop Links */}
