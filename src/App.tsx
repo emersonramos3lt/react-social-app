@@ -15,11 +15,11 @@ function App() {
       <div className="container mx-auto px-4 py-6">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/create" element={<CreatePostPage />} />
-          <Route path="/post/:id" element={<PostPage />} />
-          <Route path="/community/create" element={<CreateCommunityPage />} />
-          <Route path="/communities" element={<CommunitiesPage />} />
-          <Route path="/community/:id" element={<CommunityPage />} />
+          <Route path="#/create" element={<CreatePostPage />} />
+          <Route path="#/post/:id" element={<PostPage />} />
+          <Route path="#/community/create" element={<CreateCommunityPage />} />
+          <Route path="#/communities" element={<CommunitiesPage />} />
+          <Route path="#/community/:id" element={<CommunityPage />} />
         </Routes>
       </div>
     </div>
